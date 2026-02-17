@@ -6,3 +6,6 @@ alien_shot = input("What color was the alien? ")
 
 if alien_shot == "green":
     print("You scored 5 points")
+else:
+    print("You scored 10 points")
+
