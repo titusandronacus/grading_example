@@ -2,7 +2,7 @@
     Alien score keeper
 """
 
-alien_shot = input("What color was the alien? ")
+alien_shot = input("What color was the alien? ").lower()
 
 if alien_shot == "green":
     print("You scored 5 points")
